@@ -13,6 +13,8 @@ captures/
 .externalNativeBuild/
 .cxx/
 *.apk
+# Исключение: разрешаем APK в папке releases для распространения
+!releases/*.apk
 output.json
 
 # IntelliJ
