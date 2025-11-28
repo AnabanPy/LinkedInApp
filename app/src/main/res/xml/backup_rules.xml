@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Исключаем базу данных из резервного копирования (данные синхронизируются с Firebase) -->
+    <exclude domain="database" path="linkedin_app_database" />
+    <!-- Исключаем SharedPreferences с сессией (пользователь должен входить заново) -->
+    <exclude domain="sharedpref" path="linkedin_app_session.xml" />
+    <exclude domain="sharedpref" path="app_prefs.xml" />
+</full-backup-content>

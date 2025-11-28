@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Исключаем базу данных из облачного резервного копирования -->
+        <exclude domain="database" path="linkedin_app_database" />
+        <!-- Исключаем SharedPreferences с сессией пользователя -->
+        <exclude domain="sharedpref" path="linkedin_app_session.xml" />
+        <exclude domain="sharedpref" path="app_prefs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <!-- При переносе между устройствами также исключаем чувствительные данные -->
+        <exclude domain="database" path="linkedin_app_database" />
+        <exclude domain="sharedpref" path="linkedin_app_session.xml" />
+        <exclude domain="sharedpref" path="app_prefs.xml" />
+    </device-transfer>
+</data-extraction-rules>
+
+
+
