@@ -98,3 +98,4 @@ chmod +x build-release.sh
 - Ошибка сборки: убедитесь, что все шаги выполнены
 - Firebase ошибки: проверьте `google-services.json` после смены Application ID
 
+

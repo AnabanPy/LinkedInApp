@@ -74,7 +74,9 @@ Android приложение для поиска работы и размеще�
 
 ### Для пользователей
 
-Скачайте APK из раздела [Releases](https://github.com/AnabanPy/LinkedInApp/releases) и установите на устройство.
+Скачайте APK из папки [releases](releases/) или из раздела [GitHub Releases](https://github.com/AnabanPy/LinkedInApp/releases) и установите на устройство.
+
+**Текущая версия:** [LinkJob-v1.0-debug.apk](releases/LinkJob-v1.0-debug.apk) (~24 МБ)
 
 ## 📱 Скриншоты
 
@@ -125,20 +127,45 @@ LinkedInApp/
 - **ChatScreen** - чат с пользователем
 - **SettingsScreen** - настройки приложения
 
-## 📦 Сборка Release версии
+## 📦 Сборка приложения
 
-### Windows:
+### Сборка APK (Debug версия)
+
+Для тестирования и установки на устройства:
+
+**Windows:**
+```bash
+build-apk.bat
+```
+
+**Linux/Mac:**
+```bash
+chmod +x build-apk.sh
+./build-apk.sh
+```
+
+**Вручную:**
+```bash
+./gradlew assembleDebug
+```
+
+APK файл будет в: `app/build/outputs/apk/debug/app-debug.apk`  
+Автоматически копируется в: `releases/LinkJob-v1.0-debug.apk`
+
+### Сборка Release версии (AAB для Google Play)
+
+**Windows:**
 ```bash
 build-release.bat
 ```
 
-### Linux/Mac:
+**Linux/Mac:**
 ```bash
 chmod +x build-release.sh
 ./build-release.sh
 ```
 
-### Вручную:
+**Вручную:**
 ```bash
 ./gradlew bundleRelease
 ```
@@ -147,6 +174,8 @@ Release файл будет в: `app/build/outputs/bundle/release/app-release.aa
 
 ## 📚 Документация
 
+- [TECHNICAL_SPECIFICATION.md](TECHNICAL_SPECIFICATION.md) - техническое задание проекта
+- [ARCHITECTURE.md](ARCHITECTURE.md) - архитектурные схемы и схема базы данных
 - [QUICK_START.md](QUICK_START.md) - быстрый старт для публикации
 - [GOOGLE_PLAY_CHECKLIST.md](GOOGLE_PLAY_CHECKLIST.md) - чеклист для Google Play
 - [CHANGE_APPLICATION_ID.md](CHANGE_APPLICATION_ID.md) - как изменить Application ID

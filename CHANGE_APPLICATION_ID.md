@@ -88,3 +88,4 @@ keytool -list -v -keystore linkjob-release.keystore -alias linkjob
 **⚠️ НЕ публикуйте приложение со старым ID, если уже начали процесс!**
 Новый Application ID = новое приложение в Google Play.
 
+

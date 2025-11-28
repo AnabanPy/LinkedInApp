@@ -107,3 +107,4 @@ If you have any questions about this Privacy Policy, please contact us:
 2. Добавьте её в Google Play Console → App content → Privacy Policy
 3. (Опционально) Добавьте ссылку в настройках приложения
 
+

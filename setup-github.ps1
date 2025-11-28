@@ -87,3 +87,4 @@ Write-Host "   git push -u origin main" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "Подробная инструкция в файле GITHUB_SETUP.md" -ForegroundColor Yellow
 
+
