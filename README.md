@@ -1,6 +1,12 @@
 # LinkJob 📱
 
+[![GitHub](https://img.shields.io/github/license/AnabanPy/LinkJob)](https://github.com/AnabanPy/LinkJob)
+[![GitHub stars](https://img.shields.io/github/stars/AnabanPy/LinkJob)](https://github.com/AnabanPy/LinkJob/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/AnabanPy/LinkJob)](https://github.com/AnabanPy/LinkJob/network)
+
 Android приложение для поиска работы и размещения вакансий. Современная платформа, которая соединяет соискателей и работодателей.
+
+🔗 **Репозиторий:** [github.com/AnabanPy/LinkJob](https://github.com/AnabanPy/LinkJob)
 
 ## ✨ Основные возможности
 
@@ -23,7 +29,9 @@ Android приложение для поиска работы и размеще�
 - **Аутентификация:** Firebase Authentication
 - **Backend:** Firebase Functions (Node.js)
 - **Навигация:** Jetpack Navigation Compose
-- **Зависимости:** Hilt (Dependency Injection)
+- **Dependency Injection:** Hilt
+- **Минимальная версия:** Android 7.0 (API 24)
+- **Target SDK:** Android 14 (API 35)
 
 ## 📋 Требования
 
@@ -36,8 +44,8 @@ Android приложение для поиска работы и размеще�
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/ВАШ_USERNAME/LinkedInApp.git
-   cd LinkedInApp
+   git clone https://github.com/AnabanPy/LinkJob.git
+   cd LinkJob
    ```
 
 2. **Откройте проект в Android Studio:**
@@ -51,8 +59,10 @@ Android приложение для поиска работы и размеще�
    - Включите Authentication и Firestore в Firebase Console
 
 4. **Настройте local.properties:**
+   - Файл `local.properties` создается автоматически Android Studio
+   - Или создайте вручную с путем к Android SDK:
    ```properties
-   sdk.dir=C\:\\Users\\ВАШ_ПУТЬ\\AppData\\Local\\Android\\Sdk
+   sdk.dir=C\:\\Users\\YOUR_USERNAME\\AppData\\Local\\Android\\Sdk
    ```
 
 5. **Соберите проект:**
@@ -64,16 +74,22 @@ Android приложение для поиска работы и размеще�
 
 ### Для пользователей
 
-Скачайте APK из раздела [Releases](https://github.com/ВАШ_USERNAME/LinkedInApp/releases) и установите на устройство.
+Скачайте APK из раздела [Releases](https://github.com/AnabanPy/LinkJob/releases) и установите на устройство.
 
 ## 📱 Скриншоты
 
 > *Скриншоты будут добавлены позже*
 
+<!-- 
+Если у вас есть скриншоты, добавьте их так:
+![Скриншот 1](screenshots/screenshot1.png)
+![Скриншот 2](screenshots/screenshot2.png)
+-->
+
 ## 📂 Структура проекта
 
 ```
-LinkedInApp/
+LinkJob/
 ├── app/
 │   ├── src/
 │   │   └── main/
@@ -149,7 +165,7 @@ Release файл будет в: `app/build/outputs/bundle/release/app-release.aa
 
 ## 📝 Лицензия
 
-Этот проект распространяется под лицензией MIT. См. файл `LICENSE` для подробностей.
+Этот проект распространяется под лицензией MIT. См. файл `LICENSE` для подробностей (если файл отсутствует, проект пока не имеет лицензии).
 
 ## 👤 Автор
 
@@ -165,7 +181,7 @@ Release файл будет в: `app/build/outputs/bundle/release/app-release.aa
 
 ## 📞 Контакты
 
-Если у вас есть вопросы или предложения, создайте [Issue](https://github.com/ВАШ_USERNAME/LinkedInApp/issues) в репозитории.
+Если у вас есть вопросы или предложения, создайте [Issue](https://github.com/AnabanPy/LinkJob/issues) в репозитории.
 
 ---
 
