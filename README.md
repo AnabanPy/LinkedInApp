@@ -1,12 +1,12 @@
 # LinkJob 📱
 
-[![GitHub](https://img.shields.io/github/license/AnabanPy/LinkJob)](https://github.com/AnabanPy/LinkJob)
-[![GitHub stars](https://img.shields.io/github/stars/AnabanPy/LinkJob)](https://github.com/AnabanPy/LinkJob/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/AnabanPy/LinkJob)](https://github.com/AnabanPy/LinkJob/network)
+[![GitHub](https://img.shields.io/github/license/AnabanPy/LinkedInApp)](https://github.com/AnabanPy/LinkedInApp)
+[![GitHub stars](https://img.shields.io/github/stars/AnabanPy/LinkedInApp)](https://github.com/AnabanPy/LinkedInApp/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/AnabanPy/LinkedInApp)](https://github.com/AnabanPy/LinkedInApp/network)
 
 Android приложение для поиска работы и размещения вакансий. Современная платформа, которая соединяет соискателей и работодателей.
 
-🔗 **Репозиторий:** [github.com/AnabanPy/LinkJob](https://github.com/AnabanPy/LinkJob)
+🔗 **Репозиторий:** [github.com/AnabanPy/LinkedInApp](https://github.com/AnabanPy/LinkedInApp)
 
 ## ✨ Основные возможности
 
@@ -44,8 +44,8 @@ Android приложение для поиска работы и размеще�
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/AnabanPy/LinkJob.git
-   cd LinkJob
+   git clone https://github.com/AnabanPy/LinkedInApp.git
+   cd LinkedInApp
    ```
 
 2. **Откройте проект в Android Studio:**
@@ -74,7 +74,7 @@ Android приложение для поиска работы и размеще�
 
 ### Для пользователей
 
-Скачайте APK из раздела [Releases](https://github.com/AnabanPy/LinkJob/releases) и установите на устройство.
+Скачайте APK из раздела [Releases](https://github.com/AnabanPy/LinkedInApp/releases) и установите на устройство.
 
 ## 📱 Скриншоты
 
@@ -89,7 +89,7 @@ Android приложение для поиска работы и размеще�
 ## 📂 Структура проекта
 
 ```
-LinkJob/
+LinkedInApp/
 ├── app/
 │   ├── src/
 │   │   └── main/
@@ -181,7 +181,7 @@ Release файл будет в: `app/build/outputs/bundle/release/app-release.aa
 
 ## 📞 Контакты
 
-Если у вас есть вопросы или предложения, создайте [Issue](https://github.com/AnabanPy/LinkJob/issues) в репозитории.
+Если у вас есть вопросы или предложения, создайте [Issue](https://github.com/AnabanPy/LinkedInApp/issues) в репозитории.
 
 ---
 
